@@ -1,0 +1,22 @@
+---
+import "../styles/global.css";
+---
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Michael @ Datafame</title>
+	</head>
+  <body class="bg-[#070017] text-white mx-auto max-w-3xl px-4 py-8">
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold">Datafame</h1>
+      <p class="text-lg">Le numérique au service des organisations</p>
+    </header>
+    <slot />
+    <footer class="mt-30 text-sm text-gray-400 text-center">
+      <p>👋 Hello from Datafame</p>
+    </footer>
+	</body>
+</html>
